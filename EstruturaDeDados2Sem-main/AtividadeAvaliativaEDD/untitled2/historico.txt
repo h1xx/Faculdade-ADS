@@ -1,0 +1,5 @@
+Operação: Adição
+Valor 1: 10.0
+Valor 2: 10.0
+Resultado: 20.0
+
