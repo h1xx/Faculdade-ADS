@@ -1,0 +1,23 @@
+2023-11-22 19:32:46.851590-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTATS" not found; SQL statement:
+insert into contats(name, email, phone) values (?,?,?) [42102-224]
+2023-11-22 19:33:27.053582-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTATS" not found; SQL statement:
+insert into contats(name, email, phone) values (?,?,?) [42102-224]
+2023-11-22 19:34:00.846221-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTATS" not found; SQL statement:
+insert into contats(name, email, phone) values (?,?,?) [42102-224]
+2023-11-22 21:11:06.997966-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+delete from contacts where id = ? [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:131)
+	at br.com.tutorialjdbc.ContactRepository.findByName(ContactRepository.java:137)
+	at br.com.tutorialjdbc.FindByNameTest.main(FindByNameTest.java:8)
