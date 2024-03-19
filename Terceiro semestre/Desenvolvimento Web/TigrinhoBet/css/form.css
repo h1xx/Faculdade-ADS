@@ -1,0 +1,38 @@
+section{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.lista-form,
+.lista-checkbox {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-form li,
+.lista-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.lista-form li label,
+.lista-form li p {
+    padding: 8px;
+}
+
+.lista-form > li > label,
+.lista-form li p {
+    flex: 1 120px;
+    max-width: 220px;
+}
+
+label + *{
+    flex: 1 220px;
+}
+
+.lista-form li [type='submit'] {
+    margin-left: auto;
+    padding: 2em;
+}

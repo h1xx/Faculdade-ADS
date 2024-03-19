@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TigrinhoBet</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>TigrinhoBet</h1>
+            <p>Sua casa de apostas preferida!</p>
+
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="futebol.html">Futebol</a>
+                <a href="basquete.html">Basquete</a>
+                <a href="cadastro.html">Cadastre-se</a>
+            </nav>
+
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>Cadastre-se no TigrinhoBet</h2>
+
+                <form action="" method="get">
+
+                    <ul class="lista-form">
+
+                        <li>
+                            <label for="nome">Nome completo</label>
+                            <input type="text" name="nome" id="nome" value="" placeholder="Insira seu nome completo">
+                        </li>
+
+                        <li>
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="CPF" id="CPF" placeholder="Insira seu CPF">
+                        </li>
+
+                        <li>
+                            <label for="datanascimento">Data de nascimento</label>
+                            <input type="date" name="datanascimento" id="datanascimento">
+                        </li>
+
+                        <li>
+                            <label for="aporteinicial">Aporte inicial</label>
+                            <select name="aporteinicial" id="aporteinicial">
+                                <option value="200">R$ 200,00</option>
+                                <option value="600">R$ 600,00</option>
+                                <option value="2.000,00">R$ 2.000,00</option>
+                                <option value="10.000,00">R$ 10.000,00</option>
+                            </select>
+                        </li>
+
+                        <li> 
+                            <p>Aceito os termos</p>
+
+                            <ul class="lista-checkbox">
+                                <input type="checkbox" checked="checked" value="sim">
+                                <label for="sim">Sim</label> 
+                            </ul>
+                            <ul>
+                                <input type="checkbox" value="nao">
+                                <label for="nao">Não</label> 
+                            </ul>
+                        </li>
+                         
+                        <li>
+                            <input type="submit" value="Cadastrar">
+                        </li>
+                        
+                    </ul>
+
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Desenvolvido pelo SENAI</p>
+        </footer>
+
+    </body>
+
+</html>
