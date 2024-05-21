@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: plum;
+    height: 80px;
+}
+
+nav>a:hover {
+    color: rgb(142, 83, 142);
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-left: -200px;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 14px;
+    margin-right: .2rem;
+    padding: 30px;
+    margin-bottom: -8px;
+    text-decoration: none;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px;
+}
+
+.atrasTags {
+    color: rgb(164, 164, 164);
+}
+
+.atualTags {
+    color: plum;
+    font-weight: bold;
+}
+
+/* produto */
+
+.product {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.images>img {
+    width: 70px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.unselect {
+    border: 3px solid rgb(72, 72, 72);
+}
+
+.selected {
+    border: 3px solid rgb(255, 70, 70);
+}
+
+.images>img:hover {
+    border: 3px solid rgb(255, 133, 133);
+}
+
+.imgProd {
+    margin-top: 50px;
+}
+
+.imgProd>img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.infoProd {
+    margin: 50px;
+}
+
+.code {
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+}
+
+.oldPrice {
+    color: gold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.newPrice {
+    font-size: 23px;
+    color: rgb(187, 110, 187);
+    font-weight: bold;
+}
+
+.cardPay {
+    display: flex;
+    flex-direction: row;
+}
+.pay1 {
+    color: plum;
+}
+.cor {
+    margin: 20px 0;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+}
+
+.colors>img {
+    width: 50px;
+    border-radius: 15px;
+    margin: 0 8px;
+}
+
+.colors>img:hover {
+    scale: 105%;
+    filter: brightness(.9);
+}
+
+.corAtt {
+    color: rgb(182, 182, 182);
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.sizes>button {
+    margin: 10px 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border: plum 1px solid;
+    color: plum;
+}
+
+.sizes>p {
+    margin: 10px 0;
+}
+
+button:disabled {
+    border: none;
+    color: grey;
+}
+
+.buy {
+    width: 360px;
+    background-color: plum;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.buy:hover {
+    background-color: rgb(130, 77, 130);
+}
+
+.desc {
+    margin: 30px 0;
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.descP {
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.ambient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ambient>p {
+    font-size: 20px;
+}
+
+.ambImg {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.ambImg>img {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid plum;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: plum;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(160, 104, 160);
+  }
+  
+  tr:hover {
+    background-color: #ffffff;
+  }
